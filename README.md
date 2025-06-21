@@ -1,12 +1,16 @@
 ## Instalação
-
+### 1. Clone o Projeto
 ```bash
-1. **Clone o Projeto e Acesse a pasta**
-    git clone https://github.com/luancabral/ExhcangeBroker.git
-    cd ExhcangeBroker
+git clone https://github.com/luancabral/ExchangeBroker.git
+cd ExchangeBroker
+```
 
-2. **Instalação das depêndencias**
-    rode o comando pod install
+### 2. Instale as Dependências
+```bash
+pod install
+```
 
-3. **Abra o projeto**
-    open ExchangeBroker.xcworkspace
+### 3. Abra o Projeto
+```bash
+open ExchangeBroker.xcworkspace
+```
