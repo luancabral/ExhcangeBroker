@@ -14,3 +14,8 @@ pod install
 ```bash
 open ExchangeBroker.xcworkspace
 ```
+
+
+## API KEY
+
+Coloque a sua API Key na constante apiKey no arquivo ServiceConstants para conseguir fazer a requisição com suas credencias.

@@ -61,10 +61,6 @@ final class Service: Servicing {
             return nil
         }
         
-//        if let queryItems = endpoint.queryParameters {
-//            urlComponents.queryItems = queryItems.map { URLQueryItem(name: $0.key, value: $0.value) }
-//        }
-        
         guard let url = urlComponents.url else {
             return nil
         }

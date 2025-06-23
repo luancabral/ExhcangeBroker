@@ -29,10 +29,6 @@ extension ExchangeAPI: APIEndpoint {
         return "v1"
     }
     
-//    var queryParameters: [String : String]? {
-//        return nil
-//    }
-    
     var headers: [String : String]? {
         return ["X-CoinAPI-Key": ServiceConstants.apiKey]
     }
